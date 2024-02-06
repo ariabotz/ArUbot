@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    1054295664, #keenan
+    6792519870, #keenan
     482945686, #keenan2
     1860375797, #iamuput
     1988690500, #anara
@@ -23,13 +23,13 @@ DEVS = [
 
 KYNAN = list(map(int, os.getenv("KYNAN", "1054295664 1860375797 712277262").split()))
 
-API_ID = int(os.getenv("API_ID", "17250424"))
+API_ID = int(os.getenv("API_ID", "25927541"))
 
-API_HASH = os.getenv("API_HASH", "753bc98074d420ef57ddf7eb1513162b")
+API_HASH = os.getenv("API_HASH", "755b0d5e86f5469696fdd1abd0013c69")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6560233633:AAEvCQv7YDsMMFdWTAsjBJmmg143MlR226E")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6856283309:AAHAl4hr_2Zk2JmNikqcpmuptS2njnEqohE")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "1860375797"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6792519870"))
 
 USER_ID = list(map(int, os.getenv("USER_ID", "1860375797 712277262").split()))
 
