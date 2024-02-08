@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    5832742519, #keenan    
+    6951053893, #keenan    
 ]
 
-KYNAN = list(map(int, os.getenv("Aria", "5832742519").split()))
+KYNAN = list(map(int, os.getenv("Aria Putra", "6951053893").split()))
 
 USER_ID = list(map(int, os.getenv("USER_ID", "").split()))
 
@@ -19,7 +19,7 @@ API_HASH = os.getenv("API_HASH", "4548501e09438b39b1ccbec22ba8288c")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6842976849:AAGLxDsF41AdaXWXgPM3W7SrLS-cu54AsGk")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "5832742519"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6951053893"))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1002145151433"))
 
@@ -38,5 +38,5 @@ OPENAI_KEY = os.getenv(
 
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://ariaputrapratamaaaa:jys25mZSkyH3x9jo@cluster0.nebsqze.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://akunherokuu:cumatest@cluster0.vqcybya.mongodb.net/?retryWrites=true&w=majority",
 )
