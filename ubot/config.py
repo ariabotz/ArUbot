@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    6951053893, #keenan    
+    6890751790, #keenan    
 ]
 
-KYNAN = list(map(int, os.getenv("Aria Putra", "6951053893").split()))
+KYNAN = list(map(int, os.getenv("Aria Putra", "6890751790").split()))
 
 USER_ID = list(map(int, os.getenv("USER_ID", "").split()))
 
