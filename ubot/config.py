@@ -11,7 +11,7 @@ DEVS = [
 
 KYNAN = list(map(int, os.getenv("Aria Putra", "6890751790").split()))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "6890751790").split()))
 
 API_ID = int(os.getenv("API_ID", "9996453"))
 
