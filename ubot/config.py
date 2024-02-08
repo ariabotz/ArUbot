@@ -6,24 +6,24 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    6890751790, #keenan    
+    6951053893, #keenan    
 ]
 
-KYNAN = list(map(int, os.getenv("Aria", "6890751790").split()))
+KYNAN = list(map(int, os.getenv("Aria", "6951053893").split()))
 
 API_ID = int(os.getenv("API_ID", "21393516"))
 
 API_HASH = os.getenv("API_HASH", "9ea808c58bec34fb6c8a7da1e32b5ddc")
 
-USER_ID = list(map(int, os.getenv("USER_ID", "6890751790").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "6951053893").split()))
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6728027184:AAEZHRbPyFuUPjOvOH8Fl5QE9r_GRyYNAsk")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6842976849:AAGLxDsF41AdaXWXgPM3W7SrLS-cu54AsGk")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "6890751790"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6951053893"))
 
-LOG_UBOT = int(os.getenv("LOG_UBOT", "-1002013005433"))
+LOG_UBOT = int(os.getenv("LOG_UBOT", "-1002145151433"))
 
-LOG_SELLER = int(os.getenv("LOG_SELLER", "-1002013005433"))
+LOG_SELLER = int(os.getenv("LOG_SELLER", "-1002145151433"))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1001876092598 -1001864253073 -1001451642443 -1001825363971 -1001797285258 -1001927904459 -1001287188817 -1001812143750 -1001608701614 -1001473548283 -1001608847572 -1001982790377 -1001538826310 -1001861414061 -1001876092598").split()))
 
