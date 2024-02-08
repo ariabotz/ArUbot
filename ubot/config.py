@@ -11,9 +11,9 @@ DEVS = [
 
 KYNAN = list(map(int, os.getenv("Aria", "6951053893").split()))
 
-API_ID = int(os.getenv("API_ID", "21393516"))
+API_ID = int(os.getenv("API_ID", "9996453"))
 
-API_HASH = os.getenv("API_HASH", "9ea808c58bec34fb6c8a7da1e32b5ddc")
+API_HASH = os.getenv("API_HASH", "4548501e09438b39b1ccbec22ba8288c")
 
 USER_ID = list(map(int, os.getenv("USER_ID", "6951053893").split()))
 
