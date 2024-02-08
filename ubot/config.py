@@ -11,7 +11,7 @@ DEVS = [
 
 KYNAN = list(map(int, os.getenv("Aria", "5832742519").split()))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "5832742519").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "").split()))
 
 API_ID = int(os.getenv("API_ID", "9996453"))
 
@@ -38,5 +38,5 @@ OPENAI_KEY = os.getenv(
 
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://ariaputrapratamaaaa:jys25mZSkyH3x9jo@cluster0.nebsqze.mongodb.net",
+    "mongodb+srv://ariaputrapratamaaaa:jys25mZSkyH3x9jo@cluster0.nebsqze.mongodb.net/?retryWrites=true&w=majority",
 )
