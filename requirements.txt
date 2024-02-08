@@ -1,5 +1,4 @@
 aiohttp
-pytgcalls
 kymang==2.0.2
 pyrogram
 tgcrypto
