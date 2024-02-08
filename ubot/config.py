@@ -5,33 +5,20 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    6792519870, #keenan
-    482945686, #keenan2
-    1860375797, #iamuput
-    1988690500, #anara
-    712277262, #iamuput2
-    5063062493, #kazu
-    961659670, #kazu2
-    1992087933, #xenn
-    1329377873, #xenn2
-    2073495031, #piki
-    5170630278, #pikianjing
-    479344690, #ray
-    5569311686, #rewe
-    1087819304, #reza
+    6890751790, #keenan    
 ]
 
-KYNAN = list(map(int, os.getenv("KYNAN", "1054295664 1860375797 712277262").split()))
+KYNAN = list(map(int, os.getenv("Aria", "6890751790").split()))
 
-API_ID = int(os.getenv("API_ID", "25927541"))
+API_ID = int(os.getenv("API_ID", "21393516"))
 
-API_HASH = os.getenv("API_HASH", "755b0d5e86f5469696fdd1abd0013c69")
+API_HASH = os.getenv("API_HASH", "9ea808c58bec34fb6c8a7da1e32b5ddc")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6856283309:AAHAl4hr_2Zk2JmNikqcpmuptS2njnEqohE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6728027184:AAEZHRbPyFuUPjOvOH8Fl5QE9r_GRyYNAsk")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "6792519870"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6890751790"))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "1860375797 712277262").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "6890751790").split()))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001682195874"))
 
