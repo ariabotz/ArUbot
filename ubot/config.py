@@ -1,3 +1,4 @@
+
 import os
 
 from dotenv import load_dotenv
@@ -20,9 +21,9 @@ OWNER_ID = int(os.getenv("OWNER_ID", "6890751790"))
 
 USER_ID = list(map(int, os.getenv("USER_ID", "6890751790").split()))
 
-LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001682195874"))
+LOG_UBOT = int(os.getenv("LOG_UBOT", "--1002013005433"))
 
-LOG_SELLER = int(os.getenv("LOG_SELLER", "-1001682195874"))
+LOG_SELLER = int(os.getenv("LOG_SELLER", "--1002013005433"))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1001876092598 -1001864253073 -1001451642443 -1001825363971 -1001797285258 -1001927904459 -1001287188817 -1001812143750 -1001608701614 -1001473548283 -1001608847572 -1001982790377 -1001538826310 -1001861414061 -1001876092598").split()))
 
@@ -37,5 +38,5 @@ OPENAI_KEY = os.getenv(
 
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://uputra:uputra@cluster0.n94m27s.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://ariaputrapratamaaaa:jys25mZSkyH3x9jo@cluster0.nebsqze.mongodb.net",
 )
