@@ -23,7 +23,7 @@ async def loadPlugins():
                     imported_module.__MODULE__.replace(" ", "_").lower()
                 ] = imported_module
     print(f"[🤖 @{bot.me.username} 🤖] [🔥 TELAH BERHASIL DIAKTIFKAN! 🔥]")
-    await bot.send_message(BLACKLIST_CHAT, f"""
+    await bot.send_message(OWNER_ID, f"""
 <b>🤖 {bot.me.mention} Aktif</b>
 
 <b>Modules : {len(HELP_COMMANDS)}</b>
