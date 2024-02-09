@@ -40,9 +40,6 @@ Bantuan Untuk Voice Chat
 
 • Perintah: <code>{0}leavevc</code>
 • Penjelasan: Untuk meninggalkan voice chat grup.
-
-
- © {bot.me.first_name.split()[0]}
 """
 
 
