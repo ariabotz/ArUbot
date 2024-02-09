@@ -1,16 +1,17 @@
 from ubot import *
 
 
-__MODULE__ = "vctools"
-__HELP__ = f"""
-<b>『 ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴠᴄᴛᴏᴏʟꜱ 』</b>
+__MODULE__ = "VoiceChat"
+__HELP__ = """
+Bantuan Untuk Voice Chat
 
-  <b>• ᴘᴇʀɪɴᴛᴀʜ:</b> <code>{0}startvc</code>
-  <b>• ᴘᴇɴᴊᴇʟᴀsᴀɴ:</b> ᴜɴᴛᴜᴋ ᴍᴇᴍᴜʟᴀɪ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɢʀᴜᴘ.
+• Perintah: <code>{0}startvc</code>
+• Penjelasan: Untuk memulai voice chat grup.
 
-  <b>• ᴘᴇʀɪɴᴛᴀʜ:</b> <code>{0}stopvc</code>
-  <b>• ᴘᴇɴᴊᴇʟᴀsᴀɴ:</b> ᴜɴᴛᴜᴋ ᴍᴇɴɢᴀᴋʜɪʀɪ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɢʀᴜᴘ.
+• Perintah: <code>{0}stopvc</code>
+• Penjelasan: Untuk mengakhiri voice chat grup.
 """
+
 
 
 @PY.UBOT("startvc")
@@ -23,11 +24,11 @@ async def _(client, message):
     await stop_vctools(client, message)
 
 
-@PY.UBOT("joinvc")
+@PY.UBOT("naikygy")
 async def _(client, message):
-    await join_vctools(client, message)
+    await join_os(client, message)
 
 
-@PY.UBOT("leavevc")
+@PY.UBOT("turunygy")
 async def _(client, message):
-    await leave_vctools(clien, message)
+    await turun_os(client, message)
