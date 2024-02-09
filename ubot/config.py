@@ -20,7 +20,7 @@ API_HASH = os.getenv("API_HASH", "cdead4ba6ac4eb6d699b39a25ef027d7")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6579217314:AAEaSW29-euFLAfJJ0DWAhRf5IBs0j47GWg")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "5832742519"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6402008758"))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001627065624"))
 
