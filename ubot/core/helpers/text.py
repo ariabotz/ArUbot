@@ -36,7 +36,9 @@ Jika Kamu Sudah Melakukan Pembayaran Silakan Klik Tombol Buat Userbot.</b>
 
 <b>💳 Metode Pembayaran:</b>
  <b>├──• Dana </b>
- <b>├─• <code>082288195789</code></b>
+ <b>├─• <code>089525340368</code></b>
+ <b>├──• Seabank </b>
+ <b>├─• <code>901095706512</code></b>
 
 
 <b>🔖 Total Harga: ʀᴘ {total}.000</b>
