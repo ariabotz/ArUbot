@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    6951053893, #keenan    
+    6951053893,
+    5832742519,#keenan    
 ]
 
 KYNAN = list(map(int, os.getenv("Aria Putra", "6951053893").split()))
@@ -29,7 +30,7 @@ BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1001876092598 -1001
 
 MAX_BOT = int(os.getenv("MAX_BOT", "100"))
 
-RMBG_API = os.getenv("RMBG_API", "a6qxsmMJ3CsNo7HyxuKGsP1o")
+RMBG_API = os.getenv("RMBG_API", "xt58We5ae5VaUgXcS6QQXfBb")
 
 OPENAI_KEY = os.getenv(
     "OPENAI_KEY",
