@@ -6,29 +6,29 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    6951053893,
+    6402008758,
     5832742519,#keenan    
 ]
 
-KYNAN = list(map(int, os.getenv("Aria Putra", "6951053893").split()))
+KYNAN = list(map(int, os.getenv("Aria Putra", "6402008758").split()))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "6951053893").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "6402008758").split()))
 
-API_ID = int(os.getenv("API_ID", "9996453"))
+API_ID = int(os.getenv("API_ID", "24991697"))
 
-API_HASH = os.getenv("API_HASH", "4548501e09438b39b1ccbec22ba8288c")
+API_HASH = os.getenv("API_HASH", "cdead4ba6ac4eb6d699b39a25ef027d7")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6842976849:AAGLxDsF41AdaXWXgPM3W7SrLS-cu54AsGk")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6579217314:AAEaSW29-euFLAfJJ0DWAhRf5IBs0j47GWg")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "6951053893"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6402008758"))
 
-LOG_UBOT = int(os.getenv("LOG_UBOT", "-1002145151433"))
+LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001627065624"))
 
-LOG_SELLER = int(os.getenv("LOG_SELLER", "-1002145151433"))
+LOG_SELLER = int(os.getenv("LOG_SELLER", "-1001627065624"))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1001876092598 -1001864253073 -1001451642443 -1001825363971 -1001797285258 -1001927904459 -1001287188817 -1001812143750 -1001608701614 -1001473548283 -1001608847572 -1001982790377 -1001538826310 -1001861414061 -1001876092598").split()))
 
-MAX_BOT = int(os.getenv("MAX_BOT", "100"))
+MAX_BOT = int(os.getenv("MAX_BOT", "500"))
 
 RMBG_API = os.getenv("RMBG_API", "xt58We5ae5VaUgXcS6QQXfBb")
 
