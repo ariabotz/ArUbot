@@ -1,4 +1,4 @@
-from PyroUbot import *
+from ubot import *
 
 
 __MODULE__ = "vctools"
