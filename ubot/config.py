@@ -6,12 +6,12 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 DEVS = [
-    6890751790, #keenan    
+    6951053893, #keenan    
 ]
 
-KYNAN = list(map(int, os.getenv("Aria Putra", "6890751790").split()))
+KYNAN = list(map(int, os.getenv("Aria Putra", "6951053893").split()))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "6890751790").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "6951053893").split()))
 
 API_ID = int(os.getenv("API_ID", "9996453"))
 
@@ -19,7 +19,7 @@ API_HASH = os.getenv("API_HASH", "4548501e09438b39b1ccbec22ba8288c")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6842976849:AAGLxDsF41AdaXWXgPM3W7SrLS-cu54AsGk")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "6890751790"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6951053893"))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1002145151433"))
 
