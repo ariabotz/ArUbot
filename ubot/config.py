@@ -11,7 +11,7 @@ DEVS = [
 
 KYNAN = list(map(int, os.getenv("Aria Putra", "5832742519").split()))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "6402008758").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "5832742519").split()))
 
 API_ID = int(os.getenv("API_ID", "26979834"))
 
@@ -19,7 +19,7 @@ API_HASH = os.getenv("API_HASH", "546d1227a68ebabbfce69ba22a0e0127")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6926053238:AAGHqQQ__SDVX74BmrT6zBZ8LQ8mK7JSm3I")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "5832742519"))
+OWNER_ID = int(os.getenv("OWNER_ID", "583274219"))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001627065624"))
 
